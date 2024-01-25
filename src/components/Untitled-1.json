@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 8.9,
+        "lat": 9.9167
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 18.86,
+        "feels_like": 17.17,
+        "temp_min": 18.86,
+        "temp_max": 18.86,
+        "pressure": 1018,
+        "humidity": 14,
+        "sea_level": 1018,
+        "grnd_level": 888
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.1,
+        "deg": 114,
+        "gust": 1.19
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1706047944,
+    "sys": {
+        "country": "NG",
+        "sunrise": 1705988794,
+        "sunset": 1706030713
+    },
+    "timezone": 3600,
+    "id": 2335953,
+    "name": "Jos",
+    "cod": 200
+}
