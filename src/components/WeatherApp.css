@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     flex-wrap: wrap;
 }
 .row .empty-div{
@@ -158,12 +158,14 @@ margin: 10px;
     .row{
 
         height: 100%;
+        
 
     }
     .container{
         width: 100%;
         margin-bottom: 0px;
         height: 100%;
+        margin-bottom: 0px;
    
         }
         .top-bar input{
