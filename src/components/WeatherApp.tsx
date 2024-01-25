@@ -8,7 +8,7 @@ import search1 from "../assets/image/search.png";
 import snow from "../assets/image/snow.png";
 import wind from "../assets/image/wind.png";
 import { useState } from "react";
-import {FaGlobeAmericas}  from "react-icons/fa";
+import {BsGlobeAmericas}  from "react-icons/bs";
 
 const WeatherApp = () => {
   const [cityInput, setCityInput] = useState("");
@@ -84,7 +84,7 @@ const WeatherApp = () => {
         <div className="empty-div"></div>
     <div className="container">
         
-        <div className="header"><span><FaGlobeAmericas size={25}/></span>Global Weather APP</div>
+        <div className="header"><span><BsGlobeAmericas size={25}/></span>Global Weather APP</div>
       <div className="top-bar">
         {isLoading && <div className="spinner-border loading" >loading...</div>}
         
