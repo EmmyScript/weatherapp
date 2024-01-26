@@ -92,12 +92,14 @@ const WeatherApp = () => {
         
         <div className="header">Global Weather APP</div>
       <div className="top-bar">
-        {isLoading && <div className="spinner-border loading" >loading...</div>}
+        {isLoading && <div className="spinner-border loading" >loading....</div>}
         
         <input
           type="text"
           className="cityInput"
           placeholder="search..."
+
+          
           onChange={(e) => setCityInput(e.target.value)}
           value={cityInput}
         />
