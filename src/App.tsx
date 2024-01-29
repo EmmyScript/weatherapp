@@ -1,3 +1,5 @@
+
+
 import WeatherApp from "./components/WeatherApp"
 
 
@@ -6,8 +8,9 @@ const App = () => {
     <div className="app">
 
       <WeatherApp/>
+      
     </div>
   )
 }
 
-export default App
+export default App;
